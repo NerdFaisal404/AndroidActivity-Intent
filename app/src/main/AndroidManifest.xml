@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity"></activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="Second Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeTwo"></activity>
     </application>
 
 </manifest>
