@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             intent.putExtra(SecondActivity.NAME, "From first Activity");
             startActivity(intent);
             overridePendingTransition(R.anim.activity_slide_start_enter, R.anim.activity_slide_finish_exit);
+           // overridePendingTransition(android.R.anim.fade_in, R.anim.activity_slide_finish_exit);
 
 
         } else if (view.getId() == R.id.btnBrowser) {
